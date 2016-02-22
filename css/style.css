@@ -1,0 +1,110 @@
+html {
+  background-color: #F5CC00;
+}
+
+body {
+  padding: 50px 50px 40px 30px;
+}
+
+h1 {
+  text-decoration: none;
+  text-align: center;
+  color: magenta;
+  font-family: 'Oswald', sans-serif;
+}
+
+a:hover h1 {
+  color: white;
+  text-decoration: none;
+  text-shadow:
+	1px 1px 0 magenta,
+	2px 2px 0 magenta,
+	3px 3px 0 magenta,
+	4px 4px 0 magenta,
+	5px 5px 0 magenta,
+	6px 6px 0 magenta; /* end of 4 level deep dark shadow */
+}
+
+/*.gameboard {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+}*/
+
+.buttons {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+  padding: 50px 50px 40px 30px;
+  color: transparent;
+}
+
+/*canvas {
+  width: 150px;
+  height: 150px;
+  border: 5px white;
+  background-color: white;
+}*/
+
+#reset-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 5px;
+  color: magenta;
+  background-color: white;
+}
+
+.menu li {
+  font-family: 'Oswald', sans-serif;
+  color: magenta;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: inline;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content p {
+  font-family: 'Oswald', sans-serif;
+  list-style-type: none;
+  display: inline;
+  height: auto;
+  color: white;
+}
+
+.content h3 {
+  font-family: 'Oswald', sans-serif;
+  list-style-type: none;
+  height: auto;
+  color: white;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  list-style-type: none;
+  height: auto;
+  color: white;
+}
+
+a:link {
+  color:white;
+  background-color:transparent;
+  text-decoration:none;
+}
+
+a:hover {
+  color:white;
+  background-color:magenta;
+  text-decoration:none;
+  border-radius: 3px;
+}
+
+a:link .wiki {
+  color: white;
+  text-decoration: none;
+  color: magenta;
+}
